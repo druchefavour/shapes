@@ -1,9 +1,7 @@
 
 // Create a Square - subclass object
-var Triangle = function (a, b, c) {
+var Square = function (a) {
   this.a = a;
-  this.b = b;
-  this.c = c;
 }
 // Export file to shape.js
 module.exports = Square;
